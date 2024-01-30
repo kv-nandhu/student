@@ -41,17 +41,17 @@ class _DetailsPageState extends State<DetailsPage> {
           ),
           ListTile(
             leading: Icon(Icons.person),
-            title: Text("Name : ${widget.name}",
+            title: Text("name : ${widget.name}",
                 style: TextStyle(fontSize: 19, fontWeight: FontWeight.w500)),
           ),
           ListTile(
             leading: Icon(Icons.abc),
-            title: Text("Age : ${widget.age}",
+            title: Text("age : ${widget.age}",
                 style: TextStyle(fontSize: 19, fontWeight: FontWeight.w500)),
           ),
           ListTile(
             leading: Icon(Icons.home),
-            title: Text("Address : ${widget.address}",
+            title: Text("address : ${widget.address}",
                 style: TextStyle(fontSize: 19, fontWeight: FontWeight.w500)),
           )
         ],
